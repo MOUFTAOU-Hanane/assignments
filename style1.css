@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+nav{ 
+    padding: 20px;
+    display: flex;
+    background-color:palevioletred;
+    justify-content: flex-end;
+
+    
+    
+    
+}
+nav ul {
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+   
+
+}
+nav ul a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#ABOUT{
+    height: 620px;
+    
+     background-color: whitesmoke;
+    
+}
+#ABOUT h1{
+    
+    font-size: 70px;
+    text-shadow: hotpink 2px 1px;
+    color: white;
+    padding-top: 190px;
+    text-align: center;
+   
+}
+span{
+    position: absolute;
+    top: 340px;
+    left: 630px;
+    text-align: center;
+    color: powderblue;
+    font-size: 40px;
+}
+#WORK{
+    height: 620px;
+     background-color:pink;
+     position: relative;
+     
+    }
+     
+    
+     #WORK h1{
+        font-size: 70px;
+        text-shadow: hotpink 2px 1px;
+        color: papayawhip;
+        padding-top:  50px;
+        text-align: center;
+       }
+   
+
+       .mesimg{
+           padding-left: 125px;
+       }
+
+img{
+    
+    height: 300px;
+    width: 400px;
+padding-top: 20px;
+   padding-left: 70px;
+    
+    
+    
+}
+button{
+    
+  position: absolute; 
+  top: 500px;
+    left: 700px;
+    padding: 20px;
+    
+   
+}/*
+div{
+position: absolute;
+top:250px;}*/
+
+#CONTACT{
+height: 620px;
+   background-color: powderblue;
+     }
+     
+    
+     #CONTACT h1{
+        text-align: center;
+        font-size: 70px;
+        color: papayawhip;
+        
+        
+    }
+    #CONTACT p{
+        color: red;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    .elmt{
+        text-align: center;
+        padding-top: 75px;
+        
+    }
+   
+    #CONTACT .icon{
+        text-align: center;
+        
+        font-size: 25px;
+      
+        color: white;
+        padding: 55px;
+    }
+    #CONTACT .icon :hover{
+        transform: translate(50,70);
+        cursor: pointer;
+        color: yellow;
+        transition: 2ms;
+    }

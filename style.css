@@ -1,0 +1,67 @@
+
+ a {
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    padding: 27px;
+padding-left: 320px;}
+
+table{
+    position: fixed;
+    
+}
+table td{
+padding: 20px;
+}
+th,table td{
+    border-bottom:1px solid gainsboro;
+    
+   /* border-collapse: collapse;*/
+    
+}
+th{
+    font-size: 30px;
+    padding: 15px;
+    padding-bottom: 24px;
+    
+}
+.container{display: flex;}
+#A{
+    padding-left: 14px;
+    
+}
+.A{
+    display: inline-block;
+    width: 90%;
+    height: 25%;
+    background-color: gainsboro;
+    border: transparent solid 2px;
+    padding:15px ;
+    border-radius: 5px;
+}
+.B{
+    display: inline-block;
+    width: 91%;
+    height: 25%;
+    background-color: ghostwhite;
+    border: transparent solid 2px;
+    padding:10px ;
+    border-radius: 5px;
+}
+#B{
+    padding-left: 20px;
+    
+}
+.C{
+    padding-left: 14px;
+}
+.barre{
+    border: 2px solid gainsboro;
+    width: 1px;
+    height: 300%;
+    position: absolute;
+    left: 280px;
+    background-color: gainsboro;
+}
